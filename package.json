@@ -2,10 +2,10 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "my first complex backend yt-clone",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-   "dev": "nodemon src/index.js"
+    "dev": "nodemon src/index.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Yash-Warhekar/yt-clone/issues"
   },
-  "homepage": "https://github.com/Yash-Warhekar/yt-clone#readme"
+  "homepage": "https://github.com/Yash-Warhekar/yt-clone#readme",
+  "devDependencies": {
+    "prettier": "^3.5.3"
+  }
 }
